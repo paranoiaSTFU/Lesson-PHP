@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Изучение JavaScript</title>
+</head>
+<body>
+    <!--Если у пользователя отключена поддержка JS-->
+    <noscript>Включите JavaScript!</noscript>
+    <!--
+        Для подключения JS к файлу используется тег <script>.
+        С его помощью можно подключить стороний файл JS или написать свой код на JS.
+        Можно прописывать как в <head>, так и в <body>.
+        Рекомендуется писать в конце тега <body>.
+    -->
+    <script>
+        // Вывести текст
+        document.write("Вывести текст с помощью JavaScript на страницу HTML");
+        // Работа с консолью (вывод сообщения)
+        console.log("Вывести текст с помощью JavaScript в консоль");    // сообщение
+        console.info("Вывести текст с помощью JavaScript в консоль");   // сообщение
+        console.error("Вывести текст с помощью JavaScript в консоль");  // сообщение об ошибке
+        console.warn("Вывести текст с помощью JavaScript в консоль");   // уведомление 
+    </script>
+    <!--Подключение стороннего файла JS-->
+    <script src="../JS/MainIndex.js"></script>
+</body>
+</html>
